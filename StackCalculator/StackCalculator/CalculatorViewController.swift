@@ -9,7 +9,7 @@
 import UIKit
 import Darwin
 
-class ViewController: UIViewController {
+class CalculatorViewController: UIViewController {
 
     
     @IBOutlet weak var display: UILabel!
@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     var cleared = true
     let π = M_PI
     
-    var brain = CalculatorBrain()
+    private var brain = CalculatorBrain()
     
     
     @IBAction func appendHistory(sender: UIButton) {
@@ -159,6 +159,24 @@ class ViewController: UIViewController {
             }
             userIsTyping = false
             history.text = brain.description + " ="
+        }
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        var destination = segue.destinationViewController as? UIViewController
+            if let navctrl = destination as? UINavigationController {
+                destination = navctrl.visibleViewController
+            }
+        
+        if let gvc = destination as? GraphViewController {
+            if let identifier = segue.identifier {
+                switch identifier {
+                    case "ShowGraph":
+                        gvc.title = brain.description == "?" ? "Graph" : brain.description
+                        gvc.program = brain.program
+                default: break
+                }
+            }
         }
     }
 }

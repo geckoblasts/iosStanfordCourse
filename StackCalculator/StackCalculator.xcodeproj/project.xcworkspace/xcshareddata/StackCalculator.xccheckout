@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D55629D9-3C7E-4278-9EFF-831ABE7C45DF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>StackCalculator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D1B333371E55CC04BBEF10A85785A3FD162976A1</key>
+		<string>https://github.com/geckoblasts/iosStanfordCourse.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>StackCalculator/StackCalculator.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D1B333371E55CC04BBEF10A85785A3FD162976A1</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/geckoblasts/iosStanfordCourse.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D1B333371E55CC04BBEF10A85785A3FD162976A1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D1B333371E55CC04BBEF10A85785A3FD162976A1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iosStanfordCourse</string>
+		</dict>
+	</array>
+</dict>
+</plist>
